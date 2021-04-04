@@ -1,0 +1,6 @@
+bmi_categories= ("Underweight", "Normal", "Overweight","Very overweight")
+print(type(bmi_categories))
+print(bmi_categories[-1])
+print(bmi_categories[0:2])
+print(bmi_categories.index("Normal"))
+print("Very underweight" in bmi_categories)
